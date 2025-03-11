@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple de Page avec Tailwind CSS</title>
+<!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link href="dist/styles.css" rel="stylesheet"> <!-- Incluez votre CSS compilé -->
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <!-- En-tête -->
+    <header class="bg-blue-600 text-white py-4 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-3xl font-semibold">Bienvenue sur mon site</h1>
+        </div>
+    </header>
+
+    <!-- Contenu principal -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+            <!-- Carte 1    logo -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img src="src/img/logo.png" alt="">
+                <h2 class="text-xl font-semibold text-blue-600">DragonBleu98 cosplay</h2>
+                <p class="mt-4 text-gray-700"></p>
+                <button class="mt-6 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-300">Voir plus</button>
+            </div>
+
+            <!-- Carte 2 réeaux-->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <h2 class="text-xl font-semibold text-blue-600">Me  réeaux</h2>
+                <p class="mt-4 text-gray-700">Les classes utilitaires de Tailwind sont simples à utiliser et vous permettent de styliser rapidement vos composants.</p>
+                <button class="mt-6 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-300"><a href="">Facebook</a></button>
+                <button class="mt-6 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-300"><a href="">Intagramm</a></button>
+                <button class="mt-6 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-300"><a href="">Thead</a></button>
+                <button class="mt-6 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-300"><a href="">TickToc</a></button>
+               
+            </div>
+
+
+        </div>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2025 MonSite. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
